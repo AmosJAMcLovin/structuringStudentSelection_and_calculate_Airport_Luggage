@@ -4,7 +4,7 @@ The following is my attempt at an assignmet done in html text/javascript.
 
 # Task 1: Create a Flowchart 
 
-![flowchart](flowChart/Assignment 3_Task 1 - Flowchart.png)
+![Assignment 3_Task 1 - Flowchart](flowChart/Assignment 3_Task 1 - Flowchart.png)
 
 # Task 2: Structuring Student Selection
 
