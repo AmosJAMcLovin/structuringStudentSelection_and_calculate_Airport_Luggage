@@ -6,7 +6,6 @@ The following is my attempt at an assignmet done in html text/javascript.
 
 ![Assignment 3_Task 1 - Flowchart](https://user-images.githubusercontent.com/63177847/146854090-1861dbfe-ded2-4ace-8155-73c5de79eb4c.png)
 
-
 # Task 2: Structuring Student Selection
 
 # Task 3: Calculate Airport Luggage
