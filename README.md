@@ -2,7 +2,7 @@
 
 The following is my attempt at an assignmet done in html text/javascript.
 
-# Task 1: Create a Flowchart !(Assignment 3_Task 1 - Flowchart.png)
+# Task 1: Create a Flowchart (Assignment 3_Task 1 - Flowchart.png)
 
 # Task 2: Structuring Student Selection
 
