@@ -1,0 +1,58 @@
+<html>
+<!-- 
+// Purpose: Calculate Airport Luggage
+// Task Number: 3
+// Student Name: Amos Johnson -->
+
+	<body>
+		<script type="text/javascript">
+		
+		// Declare Variable
+		var weight
+		var premium
+		var destination
+		var premiumTax
+		var total
+		
+		// Declare Constant
+		var baseRate = 24.03
+		var normalWeight = 1.5
+		var largeWeight = 3
+		var smallWeightTax = 1.66
+		var normalWeightTax = 2.87
+		var largeWeightTax = 3.87
+		
+        //Output Results
+		destination = prompt("Please enter your destination:");
+		destination;
+		
+		// Prompts for asking the user for their package weight
+		weight = prompt("Now please enter your package weight in Kg:");
+		weight;
+		
+		// If statement that determines your tax based on package weight
+		if (weight < normalWeight) {
+				premiumTax = smallWeightTax;
+		} 	else if (weight >= normalWeight) {
+				premiumTax = normalWeightTax
+		}	else if (weight < largeWeight) {
+				premiumTax = normalWeightTax
+		}	else if (weight >= largeWeight){
+				premiumTax = largeWeightTax;
+		} else {
+				premiumTax = "ERROR. Please read the instructions and try again.";
+		}
+		
+		// Calculations
+		var premium = premiumTax * weight
+		var total = premium + baseRate
+		
+		// Display Results
+		document.write("Destination: " + destination + "</br>");
+		document.write("Package Weight: " + weight + "kg" + "</br>");
+		document.write("Base Rate: $" + baseRate + "</br>");
+		document.write("Additional Package Charge: $" + premium + "</br>");
+		document.write("Total Charge: $" + total);
+		</script>
+	</body>
+</html>

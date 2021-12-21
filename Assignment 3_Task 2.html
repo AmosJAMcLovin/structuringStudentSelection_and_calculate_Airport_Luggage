@@ -1,0 +1,43 @@
+<html>
+<!-- 
+// Purpose: Structuring Student Selection
+// Task Number: 2
+// Student Name: Amos Johnson -->
+
+	<body>
+		<script type="text/javascript">
+		
+		// Declare Variable
+		var name              // variable used to input your name
+		var programName		// variable used to input program name/letter
+		var roomNumber      // variable holding the room number
+		
+		// Declare Constant
+		var networking = "N"
+		var mobileAppDevelop = "M"
+		var webDesign = "W"
+
+        // Output Results
+		name = prompt("What is your name?");
+		name;
+		
+		// Prompt for selecting your program
+		programName = prompt("What is your Program? Enter 'N' for networking students, 'M' for Mobile App Development Students,and 'W' for Web Design students");
+		programName;
+		
+		// If statement which matches room number results based on the program you select
+		if (programName == networking) {
+				roomNumber = 227;
+		} else if (programName == mobileAppDevelop){
+				roomNumber = 123;
+		} else if (programName == webDesign){
+				roomNumber = 055;
+		} else {
+				roomNumber = "Unknown. Please read the instructions and repeat your answer. Hint: Turn Caps Lock On";
+		}
+		
+		// Displays the results 
+		document.write("Welcome " + name + ", your room number is: " + roomNumber);
+		</script>
+	</body>
+</html>
