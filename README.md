@@ -1,6 +1,6 @@
 # structuringStudentSelection_and_calculate_Airport_Luggage
 
-The following is my attempt at an assignmet done in html text/javascript.
+The following is my attempt at an assignmet written in html text/javascript code.
 
 # Task 1: Create a Flowchart 
 
